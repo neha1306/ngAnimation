@@ -1,0 +1,13 @@
+ <!-- <div>
+    <button (click)="toggle()">Change Size</button>
+    <div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container"></div>
+</div> -->
+
+
+<div class="container-fluid">
+<h1>Angular Animation</h1>
+<button (click)="toggleDiv()">ToggleDiv</button>
+<div *ngIf="showDiv" [@flyInOut]>
+    FLYINOUT
+</div>
+</div>
